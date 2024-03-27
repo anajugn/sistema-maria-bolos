@@ -1,0 +1,13 @@
+body{
+    background:#F5F5F5;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.headerlogin{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
