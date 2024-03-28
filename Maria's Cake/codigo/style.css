@@ -1,0 +1,95 @@
+body {
+    background: #FFE4E4;
+;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.logo-bolo {
+    width: 70.44px;
+    height: 88.28px;
+    top: 12px;
+    left: 46px;
+    gap: 0px;
+    border: 4px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.logo-bloco {
+    width: 60.04px;
+    height: 69.12px;
+    top: 27.44px;
+    left: 1182.48px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.headerlogin {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px ;
+    width: 1455px;
+    height: 129px;
+    border-left: 1px;
+    gap: 0px;
+    opacity: 0px;
+    border-bottom: 5px solid #8F0016;
+    align-items: center;
+}
+
+.teste1 {
+    font-family: Ingrid Darling;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79.36px;
+    color: #8F0016;
+    display: flex;
+    margin-left: 10px;
+}
+
+.teste2 {
+    width: 101px;
+    height: 24px;
+    top: 52px;
+    left: 1263px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    color: #8F0016;
+    align-items: center;
+}
+
+.loginconta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.botao-acesso{
+    background-color:#8F0016;
+    border: none; /* Remove a borda */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    display: inline-block; /* Faz com que o botão se comporte como um elemento de bloco */
+    font-size: 16px; /* Tamanho do texto */
+    margin: 20px 20px 0px 40px; /* Margem externa */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    border-radius: 8px; /* Borda arredondada */
+}
+.botao-acesso:hover{
+    background-color: white;
+    color:#8F0016;
+}
